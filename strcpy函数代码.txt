@@ -1,0 +1,8 @@
+char* StrCpy(char* src){
+char* str1
+float len = src.length();
+str1=(char*)malloc(len+1);
+while(*str1!='\0')
+*str1++=*src++;
+*str1='\0';
+}
